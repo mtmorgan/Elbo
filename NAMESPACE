@@ -2,7 +2,9 @@
 
 export(hi)
 export(input_classic)
+export(input_rich)
 export(input_tidy)
+importFrom(SummarizedExperiment,SummarizedExperiment)
 importFrom(dplyr,tbl_df)
 importFrom(magrittr,"%>%")
 importFrom(reshape2,melt)
