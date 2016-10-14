@@ -1,6 +1,6 @@
 Package: Elbo
 Title: Implements Useful Utilities for my Personal Use
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: person("Martin", "Morgan",
     email = "Martin.Morgan@RoswellPark.org",
     role = c("aut", "cre"))
@@ -10,6 +10,11 @@ Description: This is an amazing package that I've invested are really
     before.
 Depends:
     R (>= 3.3.1)
+Imports:
+    SummarizedExperiment,
+    dplyr,
+    magrittr,
+    reshape2
 License: Artistic-2.0
 Encoding: UTF-8
 LazyData: true
