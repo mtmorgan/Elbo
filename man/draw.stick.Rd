@@ -11,6 +11,6 @@ draw.stick(x, y, scale = 1, arms = "down", gender = "male", lwd = 3,
 This code draws a stick figure in an existing plot device
 }
 \seealso{
-o\url{https://github.com/EconometricsBySimulation/R-Graphics/blob/master/Stick-Figures/draw.stick.R}
+\url{https://github.com/EconometricsBySimulation/R-Graphics/blob/master/Stick-Figures/draw.stick.R}
 }
 
