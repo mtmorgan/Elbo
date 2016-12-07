@@ -21,8 +21,8 @@
 #' @export
 input_tidy <- function(pdata_file, exprs_file) {
     classic <- input_classic(pdata_file, exprs_file)
-    melt(classic, id.vars=1:22, variable.name="probeset",
-         value.name="exprs") %>% tbl_df
+    melt(classic, id.vars=1:10, variable.name="Gene", value.name="Count") %>%
+        tbl_df
 }
 
 
